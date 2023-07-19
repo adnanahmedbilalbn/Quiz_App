@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.w-80{
+    width: 80% ;
+}
+.logo-container{
+    width: 30%;
+}
+img{
+    width: 30%;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+#dropdown-button{
+    background-color: black;
+    border: none;
+}

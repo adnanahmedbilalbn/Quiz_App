@@ -1,0 +1,19 @@
+.d-flex-justify-continent-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00b3b3;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008080;
+}

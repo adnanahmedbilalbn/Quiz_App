@@ -1,0 +1,83 @@
+.page-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: inherit;
+
+  }
+  
+  .question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    margin-bottom: 10px;
+  }
+  
+  input[type='radio'] {
+    margin-right: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  /* Styling for radio button appearance */
+  input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid #003434;
+    margin-top: 2px;
+    position: relative;
+    transition: border 0.3s ease;
+    cursor: pointer;
+  }
+  
+  input[type='radio']:checked {
+    border: 5px solid #00eaff;
+  }
+  
+  input[type='radio']:checked:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #00a2ff;
+  }
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+  }
+  
+  .previous-button,
+  .next-button {
+    padding: 10px 20px;
+    background-color: #00b3b3;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .previous-button:hover,
+  .next-button:hover {
+    background-color: #008080;
+  }

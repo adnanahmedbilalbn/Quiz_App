@@ -1,0 +1,52 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  .homeMain-container{
+    margin: 10% auto;
+    text-align: center;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 2% auto ;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .form-container input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    /* background-color: rgb(197, 35, 197); */
+    background-color: #008080;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #07adad;
+  }

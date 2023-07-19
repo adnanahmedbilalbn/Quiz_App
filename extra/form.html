@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark Form</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    
+    .form-container {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #333;
+      border-radius: 5px;
+    }
+    
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+    }
+    
+    .form-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .form-container input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <form>
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+</html>
